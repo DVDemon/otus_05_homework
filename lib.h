@@ -16,6 +16,6 @@
 
 #define UNUSED(variable)  (void)variable
 
-
+#include <memory>
 
 #endif
