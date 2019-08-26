@@ -3,8 +3,8 @@
 
 namespace homework{
     enum class FigureType{
-            point = 1//,
-            //line  = 2
+            point = 1,
+            line  = 2
         };
 }
 

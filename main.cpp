@@ -20,9 +20,10 @@ int main(int argc, char* argv[]){
      std::cout << "1 - new document" << std::endl;
      std::cout << "2 - draw document" << std::endl;
      std::cout << "3 - add point" << std::endl;
-     std::cout << "4 - save document" << std::endl;
-     std::cout << "5 - load document" << std::endl;
-     std::cout << "6 - remove figure" << std::endl;
+     std::cout << "4 - add line" << std::endl;
+     std::cout << "5 - save document" << std::endl;
+     std::cout << "6 - load document" << std::endl;
+     std::cout << "7 - remove figure" << std::endl;
      std::cout << "command>";
      
      std::cin >> command;
@@ -35,20 +36,35 @@ int main(int argc, char* argv[]){
          case 2:
             doc.draw(context);
             break;
-         case 3:
-            doc.add_figure(homework::FigureFactory::create(homework::FigureType::point));
-            break;
+         case 3:{
+               long x{},y{};
+               std::cout << "Enter x y>";
+               std::cin  >> x >> y;
+               doc.add_figure(homework::ComplexFactory<homework::FigureType::point,long,long>().create_figure(x,y));
+               break;
+            }
          case 4:{
+               std::tuple<long,long> a{};
+               std::tuple<long,long> b{};
+               std::cout << "Enter line start point x y>";
+               std::cin  >> std::get<0>(a) >> std::get<1>(a);
+               std::cout << "Enter line end point x y>";
+               std::cin  >> std::get<0>(b) >> std::get<1>(b);
+
+               doc.add_figure(homework::ComplexFactory<homework::FigureType::line,std::tuple<long,long>,std::tuple<long,long>>().create_figure(a,b));
+               break;
+            }
+         case 5:{
                 homework::FigureStream stream("figures.txt",true);
                 if(!doc.save_document(stream)) std::cout << "Error saving document" << std::endl;
                 break;
             }
-         case 5:{
+         case 6:{
                 homework::FigureStream stream("figures.txt",false);
                 if(!doc.load_document(stream)) std::cout << "Error loading document" << std::endl;
                 break;
             }
-         case 6:{
+         case 7:{
                size_t index;
                std::cout << "Enter index>";
                std::cin  >> index;

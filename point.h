@@ -7,10 +7,11 @@ namespace homework{
     class Point : public Figure{
         
         protected:
-            long x;
-            long y;
+            long _x;
+            long _y;
         public:
             Point();
+            Point(long x,long y);
             Point(const Point& other);
             Point& operator=(const Point& other);
 

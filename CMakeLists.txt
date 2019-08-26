@@ -12,7 +12,7 @@ find_package(Threads)
 include_directories(${GTEST_INCLUDE_DIRS})
 
 add_executable(editor main.cpp)
-add_library(library lib.cpp figure.cpp figure_factory.cpp figure_stream.cpp document.cpp point.cpp context.cpp)
+add_library(library lib.cpp figure.cpp figure_factory.cpp figure_stream.cpp document.cpp point.cpp line.cpp context.cpp)
 add_executable(gtests tests.cpp)
 
 set_target_properties(editor library gtests PROPERTIES

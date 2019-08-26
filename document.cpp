@@ -32,7 +32,7 @@ namespace homework{
             for(long i=0;i<size;++i){
                 homework::FigureType ft;
                 if(fs.load_type(ft)){
-                    std::shared_ptr<homework::Figure> figure = homework::FigureFactory::create(ft);
+                    std::shared_ptr<homework::Figure> figure = homework::BaseFactory().create_figure(ft);
                     if(figure->load(fs)){
                         add_figure(std::move(figure));
                     } else {

@@ -2,13 +2,15 @@
 
 namespace homework{
 
-    Point::Point():x(0),y(0){}
+    Point::Point():_x(0),_y(0){}
 
-    Point::Point(const Point& other) : x(other.x),y(other.y){}
+    Point::Point(long x,long y):_x(x),_y(y){}
+
+    Point::Point(const Point& other) : _x(other._x),_y(other._y){}
 
     Point& Point::operator=(const Point& other){
-        x = other.x;
-        y = other.y;
+        _x = other._x;
+        _y = other._y;
         return *this;
     }
 
@@ -18,23 +20,23 @@ namespace homework{
 
     bool Point::save(FigureStream& fs){
         bool result =true;
-        fs.save_number(x);
-        fs.save_number(y);
+        fs.save_number(_x);
+        fs.save_number(_y);
         return result;
     }
 
     bool Point::load(FigureStream& fs){
         bool result =true;
-        fs.load_number(x);
-        fs.load_number(y);
+        fs.load_number(_x);
+        fs.load_number(_y);
         return result;       
     }
 
     void Point::draw(Context& context){
         std::string str{"point:"};
-        str.append(std::to_string(x));
+        str.append(std::to_string(_x));
         str.append(",");
-        str.append(std::to_string(y));
+        str.append(std::to_string(_y));
         context.draw_string(str.c_str());
     }
 
