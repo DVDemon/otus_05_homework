@@ -50,4 +50,4 @@ namespace homework{
         context.draw_string(str.c_str());
     }
 
-};
+}
