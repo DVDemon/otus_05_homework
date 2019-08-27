@@ -16,9 +16,24 @@ namespace homework{
             Line(const Line& other);
             Line& operator=(const Line& other);
 
+            /**
+            * Каждая фигура должна знать свой тип, это поможет для сериализации/десереализации.
+            **/
             FigureType get_type()            override;
+
+            /**
+            * Десериализация фигуры из потока
+            **/
             bool save(FigureStream&)         override;
+
+            /**
+            * Десериализация фигуры из потока
+            **/
             bool load(FigureStream&)         override;
+
+            /**
+            * Отображение фигуры на экране
+            **/
             void draw(Context&)              override;
     };
 }
