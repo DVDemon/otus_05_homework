@@ -54,7 +54,7 @@ namespace homework {
              * Сохранение документа в файл.
              **/
             bool save_document(homework::FigureStream &fs);
-    }
-};
+    };
+}
 
 #endif
