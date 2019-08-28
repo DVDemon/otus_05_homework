@@ -5,6 +5,7 @@
 #include "figure.h"
 #include "point.h"
 #include "line.h"
+#include <memory>
 
 namespace homework{
 
@@ -30,7 +31,7 @@ namespace homework{
     template <class ...ARGS> struct ComplexFactory<FigureType::point,ARGS...> {
         std::shared_ptr<Figure> create_figure(ARGS ...args){
                 return std::make_shared<Point>(args...);
-            };
+            }
     };
 
     /**
@@ -39,7 +40,7 @@ namespace homework{
     template <class ...ARGS> struct ComplexFactory<FigureType::line,ARGS...> {
         std::shared_ptr<Figure> create_figure(ARGS ...args){
                 return std::make_shared<Line>(args...);
-            };
+            }
     };
 }
 
