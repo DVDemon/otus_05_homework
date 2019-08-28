@@ -31,10 +31,6 @@ install:
   # C++17
   - sudo apt-get install -qq g++-6
   - sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-6 90
-  # dot
-  # sudo apt-add-repository ppa:dperry/ppa-graphviz-test
-  # sudo apt-get update
-  # sudo apt-get autoremove graphviz
   - sudo apt-get install graphviz
 script:
 - cmake .
@@ -43,8 +39,13 @@ script:
 - cmake --build . --target package
 - doxygen Doxyfile
 deploy:
-  provider: pages
+#  provider: pages
+#  skip_cleanup: true
+#  github_token: $GH_REPO_TOKEN
+#  on:
+#    branch: master
+
+  provider: script
   skip_cleanup: true
-  github_token: $GH_REPO_TOKEN
-  on:
-    branch: master
+  script:
+  - curl -T 05_homework-0.0.$TRAVIS_BUILD_NUMBER-Linux.deb -udvdemon:$BINTRAY_API_KEY "https://api.bintray.com/content/ddzuba/otus-cpp/05_homework/$TRAVIS_BUILD_NUMBER/05_homework-0.0.$TRAVIS_BUILD_NUMBER-Linux.deb;deb_distribution=trusty;deb_component=main;deb_architecture=amd64;publish=1"
