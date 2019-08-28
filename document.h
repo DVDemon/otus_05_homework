@@ -1,12 +1,13 @@
 #ifndef DOCUMENT
 #define DOCUMENT
 
-#include "lib.h"
+
 #include "figure.h"
 #include "figure_stream.h"
 #include "context.h"
 
 #include <vector>
+#include <memory>
 
 namespace homework {
 

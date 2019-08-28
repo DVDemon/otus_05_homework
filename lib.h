@@ -17,5 +17,10 @@
 #define UNUSED(variable)  (void)variable
 
 #include <memory>
+#include <tuple>
+
+#include "figure.h"
+#include "document.h"
+#include "figure_factory.h"
 
 #endif

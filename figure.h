@@ -1,7 +1,7 @@
 #ifndef FIGURE
 #define FIGURE
 
-#include "lib.h"
+
 #include "context.h"
 #include "figure_type.h"
 #include "figure_stream.h"

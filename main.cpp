@@ -1,8 +1,7 @@
 #include "lib.h"
 
-#include "document.h"
-#include "figure_factory.h"
-#include "point.h"
+
+
 
 
 #include <iostream>
