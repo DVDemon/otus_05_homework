@@ -1,0 +1,7 @@
+<map id="homework::Document::load_document" name="homework::Document::load_document">
+<area shape="rect" id="node2" href="$classhomework_1_1_document.html#a6f57085d9ee9c91b044735351d295707" title="homework::Document\l::new_document" alt="" coords="226,5,389,47"/>
+<area shape="rect" id="node3" href="$classhomework_1_1_figure_stream.html#a4124a70b8a844c20bf0a4d92025fdc68" title="homework::FigureStream\l::load_number" alt="" coords="447,93,629,135"/>
+<area shape="rect" id="node4" href="$classhomework_1_1_figure_stream.html#a73e68767792482d2fcb6908a8a46aa5b" title="homework::FigureStream\l::load_type" alt="" coords="216,123,399,164"/>
+<area shape="rect" id="node5" href="$structhomework_1_1_base_factory.html#a4b7a57fb5cfd2f04348ccd8fd01d3793" title="homework::BaseFactory\l::create_figure" alt="" coords="220,188,395,229"/>
+<area shape="rect" id="node6" href="$classhomework_1_1_document.html#a6b070499c8e0c9f56e9bbd02761a6b38" title="homework::Document\l::add_figure" alt="" coords="226,253,389,295"/>
+</map>

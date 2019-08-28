@@ -1,0 +1,43 @@
+Start testing: Aug 28 13:47 UTC
+----------------------------------------------------------
+1/1 Testing: gtests
+1/1 Test: gtests
+Command: "/home/travis/build/DVDemon/otus_05_homework/gtests"
+Directory: /home/travis/build/DVDemon/otus_05_homework
+"gtests" start time: Aug 28 13:47 UTC
+Output:
+----------------------------------------------------------
+[==========] Running 4 tests from 4 test cases.
+[----------] Global test environment set-up.
+[----------] 1 test from test_add_figure
+[ RUN      ] test_add_figure.basic_test_set
+[       OK ] test_add_figure.basic_test_set (0 ms)
+[----------] 1 test from test_add_figure (0 ms total)
+
+[----------] 1 test from test_remove_figure
+[ RUN      ] test_remove_figure.basic_test_set
+[       OK ] test_remove_figure.basic_test_set (0 ms)
+[----------] 1 test from test_remove_figure (0 ms total)
+
+[----------] 1 test from test_new_document
+[ RUN      ] test_new_document.basic_test_set
+[       OK ] test_new_document.basic_test_set (0 ms)
+[----------] 1 test from test_new_document (0 ms total)
+
+[----------] 1 test from test_save_load
+[ RUN      ] test_save_load.basic_test_set
+[       OK ] test_save_load.basic_test_set (0 ms)
+[----------] 1 test from test_save_load (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 4 test cases ran. (0 ms total)
+[  PASSED  ] 4 tests.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"gtests" end time: Aug 28 13:47 UTC
+"gtests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Aug 28 13:47 UTC

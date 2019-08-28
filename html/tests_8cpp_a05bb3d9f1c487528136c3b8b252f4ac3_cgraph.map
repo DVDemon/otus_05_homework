@@ -1,0 +1,12 @@
+<map id="TEST" name="TEST">
+<area shape="rect" id="node2" href="$classhomework_1_1_document.html#a6b070499c8e0c9f56e9bbd02761a6b38" title="homework::Document\l::add_figure" alt="" coords="327,5,490,47"/>
+<area shape="rect" id="node3" href="$classhomework_1_1_document.html#a94beec9c7478ff2bf9ee71921c78f921" title="homework::Document\l::save_document" alt="" coords="107,260,269,301"/>
+<area shape="rect" id="node6" href="$classhomework_1_1_document.html#a6f57085d9ee9c91b044735351d295707" title="homework::Document\l::new_document" alt="" coords="327,71,490,112"/>
+<area shape="rect" id="node7" href="$classhomework_1_1_document.html#a2fa764cb13d672e3233d6d059b479b4b" title="homework::Document\l::load_document" alt="" coords="107,136,269,177"/>
+<area shape="rect" id="node11" href="$classhomework_1_1_document.html#a2bbde76fe9356a09985d5d331258e489" title="homework::Document\l::draw" alt="" coords="107,325,269,367"/>
+<area shape="rect" id="node4" href="$classhomework_1_1_figure_stream.html#af2127e2f1e368e899aa6f402c504b208" title="homework::FigureStream\l::save_number" alt="" coords="317,384,500,425"/>
+<area shape="rect" id="node5" href="$classhomework_1_1_figure_stream.html#ac6a0df9269f404bb3c74d38d757c8f14" title="homework::FigureStream\l::save_type" alt="" coords="317,319,500,360"/>
+<area shape="rect" id="node8" href="$classhomework_1_1_figure_stream.html#a4124a70b8a844c20bf0a4d92025fdc68" title="homework::FigureStream\l::load_number" alt="" coords="548,165,731,207"/>
+<area shape="rect" id="node9" href="$classhomework_1_1_figure_stream.html#a73e68767792482d2fcb6908a8a46aa5b" title="homework::FigureStream\l::load_type" alt="" coords="317,136,500,177"/>
+<area shape="rect" id="node10" href="$structhomework_1_1_base_factory.html#a4b7a57fb5cfd2f04348ccd8fd01d3793" title="homework::BaseFactory\l::create_figure" alt="" coords="321,253,496,295"/>
+</map>

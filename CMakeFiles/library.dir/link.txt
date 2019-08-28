@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblibrary.a  CMakeFiles/library.dir/lib.cpp.o CMakeFiles/library.dir/figure.cpp.o CMakeFiles/library.dir/figure_factory.cpp.o CMakeFiles/library.dir/figure_stream.cpp.o CMakeFiles/library.dir/document.cpp.o CMakeFiles/library.dir/point.cpp.o CMakeFiles/library.dir/line.cpp.o CMakeFiles/library.dir/context.cpp.o
+/usr/bin/ranlib liblibrary.a

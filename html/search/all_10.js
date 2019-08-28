@@ -1,0 +1,6 @@
+var searchData=
+[
+  ['target_5flink_5flibraries',['target_link_libraries',['../_c_make_lists_8txt.html#a88e662ae2cd79396ee9cce46639ca2be',1,'target_link_libraries(editor PRIVATE library) target_link_libraries(gtests $:&#160;CMakeLists.txt'],['../_c_make_lists_8txt.html#ab952c1583b84a01bcf64b8b87afe9ee6',1,'target_link_libraries(gtests ${CMAKE_THREAD_LIBS_INIT}library) target_compile_options(editor PRIVATE-Wall-Wextra-pedantic-Werror) target_compile_options(library PRIVATE-Wall-Wextra-pedantic-Werror) target_compile_options(gtests PRIVATE-Wall-Wextra-pedantic-Werror) install(TARGETS editor RUNTIME DESTINATION bin) set(CPACK_GENERATOR DEB) set(CPACK_PACKAGE_VERSION_MAJOR&quot;$:&#160;CMakeLists.txt']]],
+  ['test',['TEST',['../tests_8cpp.html#afeb087bc3330cad799a8a8193faf4111',1,'TEST(test_add_figure, basic_test_set):&#160;tests.cpp'],['../tests_8cpp.html#a90568014b799b9e4c5831688c9d79503',1,'TEST(test_remove_figure, basic_test_set):&#160;tests.cpp'],['../tests_8cpp.html#ad4d42fdf84604fc4e4d07c3ca8cfe76f',1,'TEST(test_new_document, basic_test_set):&#160;tests.cpp'],['../tests_8cpp.html#a05bb3d9f1c487528136c3b8b252f4ac3',1,'TEST(test_save_load, basic_test_set):&#160;tests.cpp']]],
+  ['tests_2ecpp',['tests.cpp',['../tests_8cpp.html',1,'']]]
+];
