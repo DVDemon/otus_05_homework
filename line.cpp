@@ -5,7 +5,7 @@ namespace homework{
     Line::Line():_line_start(0,0),_line_end(0,0){}
 
     Line::Line(std::tuple<long,long> line_start,std::tuple<long,long> line_end):
-     _line_start(line_start),_line_end(line_end){};
+     _line_start(line_start),_line_end(line_end){}
      
     Line::Line(const Line& other) : _line_start(other._line_start),_line_end(other._line_end){}
 
